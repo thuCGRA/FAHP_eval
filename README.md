@@ -12,7 +12,7 @@ git clone https://github.com/thuCGRA/FAHP_eval.git
 ### Configuration
 
 * *chiplets.json*: serves as a chiplet library, containing detailed information about various chiplets, including their types (such as computing, memory, interconnect), process nodes (e.g., 7nm, 14nm), and performance parameters (e.g., computing speed, storage capacity, power consumption)
-* *SiP_configuration.json*: provided the configuration details of the multi-chiplet systems
+* *SiP_configuration.json*: provides the configuration details of the multi-chiplet systems
 * *development_info.json*: contains preference settings of the designers and other important parameters
 
 ### Run evaluation
