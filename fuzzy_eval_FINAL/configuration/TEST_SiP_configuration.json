@@ -1,0 +1,16 @@
+{
+    "sol_test": {
+        "chiplets": {
+            "CPU_performance": 4,
+            "DDR": 4,
+            "PCIE": 1,
+            "CXL": 1
+        },
+        "interconnects": {
+            "num_inter": 10,
+            "num_inter_type": 3
+        },
+        "designer_ability": 20,
+        "arch_complexity": 20
+    }
+}
