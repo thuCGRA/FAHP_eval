@@ -1,0 +1,156 @@
+{
+    "CPU_performance": {
+        "size": {"x": 6, "y":6},
+        "num_modules": 20,
+        "num_modules_type": 5,
+        "tech_complexity": 20,
+        "process_node": 5,
+        "power": 6,
+        "computility": 100
+    },
+    "CPU_low_power": {
+        "size": {"x": 5, "y":5},
+        "num_modules": 10,
+        "num_modules_type": 5,
+        "tech_complexity": 5,
+        "process_node": 20,
+        "power": 5,
+        "computility": 1
+    },
+    "GPU": {
+        "size": {"x": 20, "y":20},
+        "num_modules": 20,
+        "num_modules_type": 2,
+        "tech_complexity": 16,
+        "process_node": 5,
+        "power": 20,
+        "computility": 30
+    },
+    "DSA": {
+        "size": {"x": 5, "y":5},
+        "num_modules": 20,
+        "num_modules_type": 5,
+        "tech_complexity": 10,
+        "process_node": 16,
+        "power": 8,
+        "computility": 5
+    },
+    "SRAM": {
+        "size": {"x": 3, "y":3},
+        "num_modules": 10,
+        "num_modules_type": 1,
+        "tech_complexity": 10,
+        "process_node": 16,
+        "power": 2,
+        "computility": 0
+    },
+    "DDR": {
+        "size": {"x": 5, "y":5},
+        "num_modules": 20,
+        "num_modules_type": 1,
+        "tech_complexity": 10,
+        "process_node": 16,
+        "power": 5,
+        "computility": 0
+    },
+    "Flash": {
+        "size": {"x": 15, "y":15},
+        "num_modules": 30,
+        "num_modules_type": 1,
+        "tech_complexity": 10,
+        "process_node": 16,
+        "power": 10,
+        "computility": 0
+    },
+    "CXL": {
+        "size": {"x": 5, "y":5},
+        "num_modules": 5,
+        "num_modules_type": 1,
+        "tech_complexity": 10,
+        "process_node": 25,
+        "power": 5,
+        "computility": 0
+    },
+    "UPI": {
+        "size": {"x": 5, "y":5},
+        "num_modules": 5,
+        "num_modules_type": 1,
+        "tech_complexity": 10,
+        "process_node": 25,
+        "power": 5,
+        "computility": 0
+    },
+    "PCIE": {
+        "size": {"x": 5, "y":5},
+        "num_modules": 5,
+        "num_modules_type": 1,
+        "tech_complexity": 10,
+        "process_node": 25,
+        "power": 5,
+        "computility": 0
+    },
+    "RF": {
+        "size": {"x": 3, "y":3},
+        "num_modules": 5,
+        "num_modules_type": 5,
+        "tech_complexity": 10,
+        "process_node": 65,
+        "power": 5,
+        "computility": 0
+    },
+    "MEMS": {
+        "size": {"x": 1, "y":1},
+        "num_modules": 5,
+        "num_modules_type": 5,
+        "tech_complexity": 10,
+        "process_node": 180,
+        "power": 2,
+        "computility": 0
+    },
+    "ADC": {
+        "size": {"x": 2, "y":4},
+        "num_modules": 10,
+        "num_modules_type": 5,
+        "tech_complexity": 10,
+        "process_node": 20,
+        "power": 5,
+        "computility": 0
+    },
+    "DAC": {
+        "size": {"x": 4, "y":2},
+        "num_modules": 10,
+        "num_modules_type": 5,
+        "tech_complexity": 10,
+        "process_node": 20,
+        "power": 5,
+        "computility": 0
+    },
+    "ASIC": {
+        "size": {"x": 10, "y":10},
+        "num_modules": 10,
+        "num_modules_type": 2,
+        "tech_complexity": 10,
+        "process_node": 20,
+        "power": 5,
+        "computility": 5
+    },
+    "NPU": {
+        "size": {"x": 5, "y":10},
+        "num_modules": 10,
+        "num_modules_type": 3,
+        "tech_complexity": 10,
+        "process_node": 16,
+        "power": 7,
+        "computility": 10
+    },
+    "DSP": {
+        "size": {"x": 10, "y":5},
+        "num_modules": 10,
+        "num_modules_type": 2,
+        "tech_complexity": 10,
+        "process_node": 16,
+        "power": 7,
+        "computility": 5
+    }
+
+}

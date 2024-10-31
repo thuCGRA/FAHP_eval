@@ -1,0 +1,21 @@
+{
+    "user_preference":{
+        "time": 10,
+        "cost": 10,
+        "quality": 100,
+        "qualities_weight":{
+            "area": 10,
+            "power": 10,
+            "computility": 10,
+            "latency": 10
+        }
+    },
+    "other_parameters":{
+        "demand_stability": 10,
+        "effciency": 10,
+        "production_line_effciency": 10,
+        "test_coverage": 10,
+        "test_effciency": 10,
+        "tech_metric": 10
+    }
+}
