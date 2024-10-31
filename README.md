@@ -4,39 +4,45 @@
 
 Clone the project repository:
 ```bash
-git clone https://github.com/spcl/rapid_chiplet.git
-```
-
-Install all requirements using pip:
-```bash
-cd rapid_chiplet
-pip install -r requirements.txt
+git clone https://github.com/thuCGRA/FAHP_eval.git
 ```
 
 ## Usage
 
-### Inputs
+### Configuration
 
-Configure your chip design using the seven different input files. Check out the example files in `./inputs/` and the input description in the paper [3] to get started.
+* *chiplets.json*: serves as a chiplet library, containing detailed information about various chiplets, including their types (such as computing, memory, interconnect), process nodes (e.g., 7nm, 14nm), and performance parameters (e.g., computing speed, storage capacity, power consumption)
+* *SiP_configuration.json*: provided the configuration details of the multi-chiplet systems
+* *development_info.json*: contains preference settings of the designers and other important parameters
 
+### Run evaluation
+
+#### Run evaluation in test mode:
+
+```bash
+python fuzzy_eval.py -test
+```
+
+Number of solutions can be modified here in *fuzzy_eval.py*:
+
+```python
+terminal_metrics=tm.generate_terminal_metrics(TEST_MODE = True if '-test' in sys.argv else False, n_solutions_TEST=10)
+```
+
+#### Run evaluation for case study(Standardization of D2D interconnects):
+
+```bash
+python fuzzy_eval.py -standard
+```
+
+#### Run evaluation in normal mode:
+
+```bash
+python fuzzy_eval.py
+```
 
 ## Contact
 
-Do you have any questions or did you find a bug? Contact us at patrick.iff@inf.ethz.ch.
+Do you have any questions? Contact us at THU_CGRA@163.com.
 
-## Citation
 
-Did you use RapidChiplet in your work? Feel free to cite us using the following citation:
-
-```bibtex
-@misc{iff2023rapidchiplet,
-      title={RapidChiplet: A Toolchain for Rapid Design Space Exploration of Chiplet Architectures}, 
-      author={Patrick Iff and Benigna Bruggmann and Maciej Besta and Luca Benini and Torsten Hoefler},
-      year={2023},
-      eprint={2311.06081},
-      archivePrefix={arXiv},i
-      primaryClass={cs.AR}
-}
-```
-
-## References FAHP_eval
