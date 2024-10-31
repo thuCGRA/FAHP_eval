@@ -1,8 +1,8 @@
-# NAME
+# FAHP_eval
 
-## Setup Guide
+## Setup
 
-Clone the project<NAME> repository:
+Clone the project repository:
 ```bash
 git clone https://github.com/spcl/rapid_chiplet.git
 ```
